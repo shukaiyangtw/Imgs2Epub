@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddChapDefault" xml:space="preserve">
+    <value>New Chapter</value>
+  </data>
+  <data name="AddChapLabel" xml:space="preserve">
+    <value>Add a New Chapter</value>
+  </data>
+  <data name="AddParaLabel" xml:space="preserve">
+    <value>New Paragraph</value>
+  </data>
+  <data name="AddPhotoLabel" xml:space="preserve">
+    <value>Add Photo Files</value>
+  </data>
+  <data name="AlbumInfo" xml:space="preserve">
+    <value>Album Info.</value>
+  </data>
+  <data name="AlbumPrjList" xml:space="preserve">
+    <value>Album Project List</value>
+  </data>
+  <data name="AlbumTitleDefault" xml:space="preserve">
+    <value>(Untitled Album)</value>
+  </data>
+  <data name="AlbumTitleLabel" xml:space="preserve">
+    <value>Album Title</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Album EPUB Studio</value>
+  </data>
+  <data name="At" xml:space="preserve">
+    <value>at</value>
+  </data>
+  <data name="AuthorLabel" xml:space="preserve">
+    <value>Name of the Author(s)</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="BackgroundImages" xml:space="preserve">
+    <value>Background Images</value>
+  </data>
+  <data name="BuildPreviewMsg" xml:space="preserve">
+    <value>Building the pages for preview...</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ChapDirLabel" xml:space="preserve">
+    <value>Sub-directory for Chapter Files</value>
+  </data>
+  <data name="ChapterPageMsg" xml:space="preserve">
+    <value>Every paragraph is a set of photos, including the date, location, and the description of the photos.</value>
+  </data>
+  <data name="ChapTitleLabel" xml:space="preserve">
+    <value>Title of Chapter</value>
+  </data>
+  <data name="ConfirmDeleteAlbum" xml:space="preserve">
+    <value>Are you sure to delete the album?</value>
+  </data>
+  <data name="ConfirmDeleteChapter" xml:space="preserve">
+    <value>Are you sure to delete the chapter?</value>
+  </data>
+  <data name="ConfirmDeleteCover" xml:space="preserve">
+    <value>Are you sure to remove the album cover?</value>
+  </data>
+  <data name="ConfirmDeleteParagraph" xml:space="preserve">
+    <value>Are you sure to delete the paragraph?</value>
+  </data>
+  <data name="ConfirmDeletePhoto" xml:space="preserve">
+    <value>Are you sure to delete this photo?</value>
+  </data>
+  <data name="CoverPageMsg" xml:space="preserve">
+    <value>Please select the font face, text size and color, and the background, then click Generate.</value>
+  </data>
+  <data name="DataLocationLabel" xml:space="preserve">
+    <value>Date Stamp and Location of the Photos</value>
+  </data>
+  <data name="DeleteChapLabel" xml:space="preserve">
+    <value>Delete the Chapter</value>
+  </data>
+  <data name="DeleteEpubLabel" xml:space="preserve">
+    <value>Delete the Album</value>
+  </data>
+  <data name="DeleteParaLabel" xml:space="preserve">
+    <value>Delete this Paragraph</value>
+  </data>
+  <data name="DeletePhotoLabel" xml:space="preserve">
+    <value>Delete the Photo</value>
+  </data>
+  <data name="DeletingAlbumMsg" xml:space="preserve">
+    <value>Deleting the album</value>
+  </data>
+  <data name="DirectoryAlreadyExists" xml:space="preserve">
+    <value>The directory already exists.</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="EditChapLabel" xml:space="preserve">
+    <value>Edit the Chapter</value>
+  </data>
+  <data name="EditCoverLabel" xml:space="preserve">
+    <value>Generate the Cover</value>
+  </data>
+  <data name="EditEpubPrjLabel" xml:space="preserve">
+    <value>Edit the Album Project</value>
+  </data>
+  <data name="EditPhotoLabel" xml:space="preserve">
+    <value>Edit the Photo Info.</value>
+  </data>
+  <data name="ExitFromPreview" xml:space="preserve">
+    <value>Exit from Preview</value>
+  </data>
+  <data name="ExportEpubLabel" xml:space="preserve">
+    <value>Export to a File</value>
+  </data>
+  <data name="ExportEpubMsg" xml:space="preserve">
+    <value>Pick the file name to export to...</value>
+  </data>
+  <data name="ExportingAlbumMsg" xml:space="preserve">
+    <value>Exporting the album to</value>
+  </data>
+  <data name="ExportPhotoMsg" xml:space="preserve">
+    <value>Pick the photo file name to export to...</value>
+  </data>
+  <data name="FileExportedOK" xml:space="preserve">
+    <value>The file is exported to:</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="HelpUrl" xml:space="preserve">
+    <value>https://www.cyberworlds.net/imgs2epub/manual_en.php</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="ImportCoverMsg" xml:space="preserve">
+    <value>Pick an image file as the album cover...</value>
+  </data>
+  <data name="ImportEpubLabel" xml:space="preserve">
+    <value>Import an .album.epub File</value>
+  </data>
+  <data name="ImportEpubMsg" xml:space="preserve">
+    <value>Pick an album epub file to import...</value>
+  </data>
+  <data name="ImportingAlbumMsg" xml:space="preserve">
+    <value>Importing the album</value>
+  </data>
+  <data name="ImportPhotoMsg" xml:space="preserve">
+    <value>Pick photo files to import...</value>
+  </data>
+  <data name="LoadingPhotos" xml:space="preserve">
+    <value>Loading photo files, please wait...</value>
+  </data>
+  <data name="LocationLabel" xml:space="preserve">
+    <value>Location(s) of Photography</value>
+  </data>
+  <data name="MainPageMsg" xml:space="preserve">
+    <value>Please edit the information and introduction of the album, and add new chapters. You can pick a chapter then rename or edit it, and you can reorder the chapters by dragging.</value>
+  </data>
+  <data name="MarkDate" xml:space="preserve">
+    <value>Mark the Date:</value>
+  </data>
+  <data name="MarkLocation" xml:space="preserve">
+    <value>Mark the Location</value>
+  </data>
+  <data name="NewAlbumTitle" xml:space="preserve">
+    <value>(Untitled Album)</value>
+  </data>
+  <data name="NewChapTitle" xml:space="preserve">
+    <value>New Chapter</value>
+  </data>
+  <data name="NewEpubPrjLabel" xml:space="preserve">
+    <value>New Album Project</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NonEmptyDirNameMsg" xml:space="preserve">
+    <value>The name of the sub-directory can not be empty.</value>
+  </data>
+  <data name="NotAnAlbumFile" xml:space="preserve">
+    <value>This is not an album file created by this software.</value>
+  </data>
+  <data name="NotImplementedYet" xml:space="preserve">
+    <value>Not implemented yet!</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OnlineHelpLabel" xml:space="preserve">
+    <value>Online Help</value>
+  </data>
+  <data name="ParaListLabel" xml:space="preserve">
+    <value>Paragraphs (Subset of Photos)</value>
+  </data>
+  <data name="ParaSubheadingLabel" xml:space="preserve">
+    <value>Optional Subheading</value>
+  </data>
+  <data name="ParaTextLabel" xml:space="preserve">
+    <value>Paragraph Text (Brief of the Photos)</value>
+  </data>
+  <data name="PhotoCountLabel" xml:space="preserve">
+    <value>Photos:</value>
+  </data>
+  <data name="PhotoDatesLabel" xml:space="preserve">
+    <value>Photo Dates:</value>
+  </data>
+  <data name="PhotoLabelText" xml:space="preserve">
+    <value>Label Text:</value>
+  </data>
+  <data name="PhotoListLabel" xml:space="preserve">
+    <value>Photos (Drag and drop the photo files here)</value>
+  </data>
+  <data name="Preface" xml:space="preserve">
+    <value>Preface</value>
+  </data>
+  <data name="PrefaceLabel" xml:space="preserve">
+    <value>Introduction to the Album (Preface)</value>
+  </data>
+  <data name="PreviewLabel" xml:space="preserve">
+    <value>Preview the Album</value>
+  </data>
+  <data name="PreviousPage" xml:space="preserve">
+    <value>Go Back</value>
+  </data>
+  <data name="RemoveCoverLabel" xml:space="preserve">
+    <value>Remove the Cover</value>
+  </data>
+  <data name="RemovePhoto" xml:space="preserve">
+    <value>Remove the Photo</value>
+  </data>
+  <data name="RenameChapLabel" xml:space="preserve">
+    <value>Rename the Chapter</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Replace...</value>
+  </data>
+  <data name="Rotate" xml:space="preserve">
+    <value>Rotate</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Save As...</value>
+  </data>
+  <data name="SaveRotatedImage" xml:space="preserve">
+    <value>Saving the rotated image...</value>
+  </data>
+  <data name="SelectedParagraph" xml:space="preserve">
+    <value>Selected Paragraph</value>
+  </data>
+  <data name="SetAlbumCover" xml:space="preserve">
+    <value>Set the Album Cover</value>
+  </data>
+  <data name="SetCoverPrompt" xml:space="preserve">
+    <value>The photo is selected as cover photo of the album, you have to re-generate the cover image on the previous screen.</value>
+  </data>
+  <data name="TableOfContents" xml:space="preserve">
+    <value>Table of Contents</value>
+  </data>
+  <data name="TextColor" xml:space="preserve">
+    <value>Text Color</value>
+  </data>
+  <data name="TextFontSize" xml:space="preserve">
+    <value>Text Font and Size</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="UnsupportedFileFormat" xml:space="preserve">
+    <value>Unsupported file format!</value>
+  </data>
+  <data name="UntitledChapTitle" xml:space="preserve">
+    <value>(Untitled Chapter)</value>
+  </data>
+  <data name="UploadCoverLabel" xml:space="preserve">
+    <value>My Cover Image</value>
+  </data>
+  <data name="WelcomeMsg" xml:space="preserve">
+    <value>Welcome! Please new or import an album project, or click a listed album then edit it.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+</root>

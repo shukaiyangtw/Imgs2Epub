@@ -1,0 +1,864 @@
+﻿body
+{
+ /* background-color: #ffffff; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft JhengHei', Verdana, Helvetica, Arial, 'Microsoft Sans-serif';
+    font-size: 11pt;
+ /* text-align: center; */
+    color: #333333;
+}
+
+a:link    {  text-decoration:none  }
+a:visited {  text-decoration:none  }
+a:active  {  text-decoration:underline  }
+a:hover   {  text-decoration:underline  }
+
+h1.title
+{   text-align: center;  }
+
+h2
+{
+    text-align: left;
+    padding-top: 8px;
+}
+
+p
+{   text-align: justify;  }
+
+p.datetime
+{
+    text-align: left;
+    font-size: 12pt;
+}
+
+span.locat
+{
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center;
+}
+
+p.author
+{
+    font-style: italic;
+    font-size: 12pt;
+    text-align: center;
+}
+
+p.introduction
+{
+    width: 960px;
+    margin: 0px auto;
+    text-align: justify;
+}
+
+li.toc
+{
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+pre
+{
+    display: block;
+    font-family: Courier;
+    font-size: 10pt;
+    color: #333333;
+    background-color: #f0f0ff;
+}
+
+/* Landscape 4:3 Picture Box ------------------------------------------------------------------- */
+
+div.paragraph
+{
+    width: 1024px;
+    padding 0px;
+    margin: 0 auto;
+    text-align: center;
+ /* border: 1px solid black; */
+}
+
+div.landscape
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 190px;
+
+    font-size: 9pt;
+    text-align: center;
+    border: gray 1px solid;
+
+    padding-top: 4px;
+    margin-top: 4px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+}
+
+div.landscape img
+{
+    width: 240px;
+    height: 180px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+            border-style: none;
+}
+
+div.landscape span
+{
+    position: relative;
+    bottom: 26px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+}
+
+div.landscape a
+{   color: white;  }
+
+/* Portrait 2:3 Picture Box -------------------------------------------------------------------- */
+
+div.portrait
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 125px;
+    height: 190px;
+
+    font-size: 9pt;
+    text-align: center;
+    border: gray 1px solid;
+
+    padding-top: 4px;
+    margin-top: 4px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+}
+
+div.portrait img
+{
+    width: 120px;
+    height: 180px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+            border-style: none;
+}
+
+div.portrait span
+{
+    position: relative;
+    bottom: 26px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+}
+
+div.portrait a
+{   color: white;  }
+
+/* Landscape 4:3 Picture Box 2X ---------------------------------------------------------------- */
+
+div.landscape2x
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 490px;
+    height: 370px;
+
+    font-size: 9pt;
+    text-align: center;
+    border: gray 1px solid;
+
+    padding-top: 4px;
+    margin-top: 4px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+}
+
+div.landscape2x img
+{
+    width: 480px;
+    height: 360px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+            border-style: none;
+}
+
+div.landscape2x span
+{
+    position: relative;
+    bottom: 26px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+}
+
+div.landscape2x a
+{   color: white;  }
+
+/* Portrait 2:3 Picture Box 2X ----------------------------------------------------------------- */
+
+div.portrait2x
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 245px;
+    height: 370px;
+
+    font-size: 9pt;
+    text-align: center;
+    border: gray 1px solid;
+
+    padding-top: 4px;
+    margin-top: 4px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+}
+
+div.portrait2x img
+{
+    width: 240px;
+    height: 360px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+            border-style: none;
+}
+
+div.portrait2x span
+{
+    position: relative;
+    bottom: 26px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+}
+
+div.portrait2x a
+{   color: white;  }
+
+/* Landscape 4:3 Picture Box 3X ---------------------------------------------------------------- */
+
+div.landscape3x
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 730px;
+    height: 550px;
+
+    font-size: 10pt;
+    text-align: center;
+    border: gray 1px solid;
+
+    padding-top: 6px;
+    margin-top: 6px;
+
+   -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+           border-radius: 6px;
+}
+
+div.landscape3x img
+{
+    width: 720px;
+    height: 540px;
+
+   -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+           border-radius: 6px;
+            border-style: none;
+}
+
+div.landscape3x span
+{
+    position: relative;
+    bottom: 28px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4px;
+
+   -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+           border-radius: 6px;
+}
+
+div.landscape3x a
+{   color: white;  }
+
+/* Portrait 2:3 Picture Box 3X ----------------------------------------------------------------- */
+
+div.portrait3x
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 365px;
+    height: 550px;
+
+    font-size: 10pt;
+    text-align: center;
+    border: gray 1px solid;
+
+    padding-top: 6px;
+    margin-top: 6px;
+
+   -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+           border-radius: 6px;
+}
+
+div.portrait3x img
+{
+    width: 360px;
+    height: 540px;
+
+   -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+           border-radius: 6px;
+            border-style: none;
+}
+
+div.portrait3x span
+{
+    position: relative;
+    bottom: 28px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4px;
+
+   -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+           border-radius: 6px;
+}
+
+div.portrait3x a
+{   color: white;  }
+
+/* Landscape 4:3 Picture Box 4X ---------------------------------------------------------------- */
+
+div.landscape4x
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 970px;
+    height: 730px;
+
+    font-size: 10pt;
+    text-align: center;
+    border: gray 1px solid;
+
+    padding-top: 8px;
+    margin-top: 8px;
+
+   -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+           border-radius: 8px;
+}
+
+div.landscape4x img
+{
+    width: 960px;
+    height: 720px;
+
+   -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+           border-radius: 8px;
+            border-style: none;
+}
+
+div.landscape4x span
+{
+    position: relative;
+    bottom: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+}
+
+div.landscape4x a
+{   color: white;  }
+
+/* Portrait 2:3 Picture Box 4X ----------------------------------------------------------------- */
+
+div.portrait4x
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 485px;
+    height: 730px;
+
+    font-size: 10pt;
+    text-align: center;
+    border: gray 1px solid;
+
+    padding-top: 8px;
+    margin-top: 8px;
+
+   -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+           border-radius: 8px;
+}
+
+div.portrait4x img
+{
+    width: 480px;
+    height: 730px;
+
+   -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+           border-radius: 8px;
+            border-style: none;
+}
+
+div.portrait4x span
+{
+    position: relative;
+    bottom: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4px;
+
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+}
+
+div.portrait4x a
+{   color: white;  }
+
+/* Responsive Styles for Portrait Pad ------------------------------------------------------ */
+
+@media only screen and (min-width:768px) and (max-width:1023px)
+{
+    p.introduction {  width: 720px;  }
+    div.paragraph  {  width: 768px;  }
+
+    div.landscape4x
+    {
+        width: 730px;
+        height: 550px;
+        font-size: 10pt;
+
+       -webkit-border-radius: 6px;
+          -moz-border-radius: 6px;
+               border-radius: 6px;
+    }
+
+    div.landscape4x img
+    {
+        width: 720px;
+        height: 540px;
+
+       -webkit-border-radius: 6px;
+          -moz-border-radius: 6px;
+               border-radius: 6px;
+                border-style: none;
+    }
+
+    div.portrait4x
+    {
+        width: 365px;
+        height: 550px;
+        font-size: 10pt;
+
+       -webkit-border-radius: 6px;
+          -moz-border-radius: 6px;
+               border-radius: 6px;
+    }
+
+    div.portrait4x img
+    {
+        width: 360px;
+        height: 540px;
+
+       -webkit-border-radius: 6px;
+          -moz-border-radius: 6px;
+               border-radius: 6px;
+                border-style: none;
+    }
+}
+
+/* Responsive Styles for Landscape Phone --------------------------------------------------- */
+
+@media only screen and (min-width:512px) and (max-width:767px)
+{
+    p.introduction {  width: 480px;  }
+    div.paragraph  {  width: 512px;  }
+
+    div.landscape4x
+    {
+        width: 490px;
+        height: 370px;
+        font-size: 9pt;
+
+        padding-top: 4px;
+        margin-top: 4px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.landscape4x img
+    {
+        width: 480px;
+        height: 360px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+                border-style: none;
+    }
+
+    div.landscape4x span
+    {
+        bottom: 26px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.portrait4x
+    {
+        width: 245px;
+        height: 370px;
+        font-size: 9pt;
+
+        padding-top: 4px;
+        margin-top: 4px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.portrait4x img
+    {
+        width: 240px;
+        height: 360px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+                border-style: none;
+    }
+
+    div.portrait4x span
+    {
+        bottom: 26px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.landscape3x
+    {
+        width: 490px;
+        height: 370px;
+        font-size: 9pt;
+
+        padding-top: 4px;
+        margin-top: 4px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.landscape3x img
+    {
+        width: 480px;
+        height: 360px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+                border-style: none;
+    }
+
+    div.landscape3x span
+    {
+        bottom: 26px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.portrait3x
+    {
+        width: 245px;
+        height: 370px;
+        font-size: 9pt;
+
+        padding-top: 4px;
+        margin-top: 4px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.portrait3x img
+    {
+        width: 240px;
+        height: 360px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+                border-style: none;
+    }
+
+    div.portrait3x span
+    {
+        bottom: 26px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+}
+
+/* Responsive Styles for Portrait Phone ---------------------------------------------------- */
+
+@media only screen and (max-width:511px)
+{
+    p.introduction {  width: 320px;  }
+    div.paragraph  {  width: 320px;  }
+
+    div.landscape4x
+    {
+        width: 250px;
+        height: 190px;
+        font-size: 9pt;
+
+        padding-top: 4px;
+        margin-top: 4px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.landscape4x img
+    {
+        width: 240px;
+        height: 180px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+                border-style: none;
+    }
+
+    div.landscape4x span
+    {
+        bottom: 26px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.portrait4x
+    {
+        width: 125px;
+        height: 190px;
+        font-size: 9pt;
+
+        padding-top: 4px;
+        margin-top: 4px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.portrait4x img
+    {
+        width: 120px;
+        height: 180px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+                border-style: none;
+    }
+
+    div.portrait4x span
+    {
+        bottom: 26px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.landscape3x
+    {
+        width: 250px;
+        height: 190px;
+        font-size: 9pt;
+
+        padding-top: 4px;
+        margin-top: 4px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.landscape3x img
+    {
+        width: 240px;
+        height: 180px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+                border-style: none;
+    }
+
+    div.landscape3x span
+    {
+        bottom: 26px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.portrait3x
+    {
+        width: 125px;
+        height: 190px;
+        font-size: 9pt;
+
+        padding-top: 4px;
+        margin-top: 4px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.portrait3x img
+    {
+        width: 120px;
+        height: 180px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+                border-style: none;
+    }
+
+    div.portrait3x span
+    {
+        bottom: 26px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.landscape2x
+    {
+        width: 250px;
+        height: 190px;
+        font-size: 9pt;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.landscape2x img
+    {
+        width: 240px;
+        height: 180px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+                border-style: none;
+    }
+
+    div.landscape2x span
+    {
+        bottom: 26px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.portrait2x
+    {
+        width: 125px;
+        height: 190px;
+        font-size: 9pt;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+
+    div.portrait2x img
+    {
+        width: 120px;
+        height: 180px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+                border-style: none;
+    }
+
+    div.portrait2x span
+    {
+        bottom: 26px;
+
+       -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+               border-radius: 4px;
+    }
+}
