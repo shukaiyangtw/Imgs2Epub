@@ -448,7 +448,7 @@ namespace Imgs2Epub.Properties {
         }
         
         /// <summary>
-        ///   查詢類似 https://www.cyberworlds.net/imgs2epub/manual_en.php 的當地語系化字串。
+        ///   查詢類似 https://shukaiyangtw.github.io/Imgs2Epub/manual_en.htm 的當地語系化字串。
         /// </summary>
         public static string HelpUrl {
             get {
