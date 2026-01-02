@@ -3,3 +3,5 @@ In the era that everyone has a phone, a lot of photos are taken casually. In add
 The software provides a way similar to posting a message on a social web site. It makes the establishment of EPUB files simple for everyone. By the user-interface of the software, the user creates a new album, creates a new chapter, than creates a new paragraph. In the new paragraph, the user fills a description, picks the photo date and location, and drags some photo files into the software. Repeating the steps, the album is completed, and can be exported to an .album.epub file. Also, the software can export an album into a zipped website file if you want to share it over internet.
 
 The exported EPUB files can be read by any EPUB reader app on any device and platform. For example, Calibre E-Book Reader and Management for Windows platform. It is the freeware with complete EPUB functions. Also, Album EPUB Browser is recommended. It is especially developed for *.album.epub files created by the software. It can open the files much faster than generic EPUB readers. It can also find photos in multiple .album.epub files.
+
+Online user manual: https://shukaiyangtw.github.io/Imgs2Epub/
